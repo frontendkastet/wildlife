@@ -6,7 +6,6 @@ body {
 }
 
 /* Main Display */
-
 .container{
   padding: 0 calc(50% - 600px);
 }
@@ -15,7 +14,6 @@ body {
   height: 100vh;
   background: url('../assets/img/bg.jpg') center center/cover no-repeat;
 }
-
 
 .header{
   display: flex;
@@ -76,7 +74,8 @@ body {
 }
 
 .donate-btn{
-  border: none; outline: none;
+  border: none; 
+  outline: none;
   height: 60px;
   width: 160px;
   font-size: 23px;
@@ -92,7 +91,6 @@ body {
 }
 
 /* Second Display with slider */
-
 .slider{
   padding-bottom: 240px;
 }
@@ -156,7 +154,8 @@ body {
 }
 
 .input-mail{
-  border: 1px solid #666666; outline: none;
+  border: 1px solid #666666; 
+  outline: none;
   height: 60px;
   width: 540px;
   background-color:#CCCCCC;
@@ -188,4 +187,23 @@ body {
 .footer{
   height: 359px;
   background: url('../assets/img/footerbg.jpg') center center/cover no-repeat;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 359px;
+}
+
+.link-item {
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+}
+
+.social-net{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
 }
